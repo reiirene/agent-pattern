@@ -52,4 +52,4 @@ The last rule needs type-aware linting.
 
 ## Changing this plugin
 
-Every change traces to a logged correction. `npm run verify` must pass.
+Every change traces to an entry in `corrections.md`. `npm run verify` must pass.
