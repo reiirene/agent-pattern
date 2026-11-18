@@ -1,0 +1,12 @@
+{
+  "name": "reiirene",
+  "description": "reiirene's Claude Code plugins",
+  "owner": { "name": "reiirene" },
+  "plugins": [
+    {
+      "name": "agent-pattern",
+      "source": "./",
+      "description": "Verify gate, independent reviewer, and agent designer for trustworthy agents"
+    }
+  ]
+}
