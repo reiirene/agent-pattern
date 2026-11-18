@@ -34,8 +34,6 @@ Install once, in a Claude Code session:
 /plugin install agent-pattern@reiirene
 ```
 
-From your shell, run the same commands as `claude plugin marketplace add ...` and `claude plugin install ...`.
-
 To get a new release, run `claude plugin update agent-pattern@reiirene`. Updates arrive only when `version` in `plugin.json` changes.
 
 To try a local checkout for one session without installing:
