@@ -1,0 +1,8 @@
+{
+  "name": "reiirene",
+  "description": "reiirene's Claude Code plugins",
+  "owner": { "name": "reiirene" },
+  "plugins": [
+    { "name": "agent-pattern", "source": "./" }
+  ]
+}

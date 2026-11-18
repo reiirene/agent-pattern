@@ -23,8 +23,20 @@ A Claude Code plugin that makes agents prove their work instead of claiming it. 
 | `agents/reviewer.md` | Read-only review for habits 6–8. |
 | `skills/new-agent/` | Interviews you, then writes a narrow agent to `.claude/agents/`. |
 | `.mcp.json` | Claude Code docs server, so agents check current behavior instead of guessing. |
+| `.claude-plugin/marketplace.json` | Lists this repo as the `reiirene` marketplace, so `/plugin` can install it. |
 
 ## Use
+
+Install once, in a Claude Code session:
+
+```
+/plugin marketplace add reiirene/agent-pattern
+/plugin install agent-pattern@reiirene
+```
+
+To get a new release, run `claude plugin update agent-pattern@reiirene`. Updates arrive only when `version` in `plugin.json` changes.
+
+To try a local checkout for one session without installing:
 
 ```
 claude --plugin-dir /path/to/agent-pattern
