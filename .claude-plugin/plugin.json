@@ -1,0 +1,7 @@
+{
+  "name": "agent-pattern",
+  "version": "0.1.0",
+  "description": "Verify gate, independent reviewer, and agent designer for trustworthy agents",
+  "author": { "name": "reiirene" },
+  "repository": "https://github.com/reiirene/agent-pattern"
+}
