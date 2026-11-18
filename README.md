@@ -27,13 +27,7 @@ A Claude Code plugin that makes agents prove their work instead of claiming it. 
 
 ## Use
 
-Install once, in a Claude Code session (v2.1.275 or later):
-
-```
-/plugin install agent-pattern --marketplace reiirene/agent-pattern
-```
-
-Or in two steps, which works on older versions:
+Install once, in a Claude Code session:
 
 ```
 /plugin marketplace add reiirene/agent-pattern
